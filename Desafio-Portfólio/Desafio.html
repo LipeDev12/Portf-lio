@@ -1,0 +1,106 @@
+ <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+</head>
+<body style="background-color: #ebebeb;" <!-- Cores em elementos de texto --></bodystyle>
+     <h1>Felipe-Desenvolvedor Web</h1>
+        <nav>
+            <!-- Navegação principal -->
+             <ul>
+                <li><a href="#sobre">sobre</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">contato</a></li>
+             </ul>
+        </nav>
+        <hr>
+        <!-- Minha foto -->
+         <section id="sobre"></section>
+        <h1>Sobre mim</h1>
+         <img src="asset/Manoel gomes.jpg" width="300" height="200">
+         <p>Sou estudante de <strong>Desenvolvimento de Sitema </strong>no <em>Senai</em></p>
+         <p>Tenho conhecimento em <em>HTML, CSS </em>e esou aprendendo <em>JavaScript.</em> </p>
+         <h3>Minhas Habilidades:</h3>
+          <ul style="list-style-type: square;">
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Reponsitividade</li>
+        <li>Formulário e Validção</li>
+        <li>Estruturas de Dados</li>  
+       </section>
+       <hr>
+       <section id="Projetos"></section>
+       <h1>Meus Projetos</h1>
+               <table border="10">
+            <!-- Cabeçalho da tabela -->
+            <thead <tr>
+                <th>Projetos</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+                </tr>
+            </thead>
+            <!-- Corpo da tabela -->
+            <tbody>
+                <tr>
+                    <td> Validação de Maioridade</td>
+                    <td>PHP, vscode</td>
+                    <td>Concluido</td>
+                    <td> <a href="https://github.com/LipeDev12/Verificador-de-Maioridade" target="_blank">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Estudo de Identidade Visual e Paleta de Cores – Itaú</td>
+                    <td>figma</td>
+                    <td>Concluido</td>
+                    <td><a href="https://github.com/LipeDev12/itau-Figma" target="_blank">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Filme</td>
+                    <td>HTML</td>
+                    <td>Concluido</td>
+                    <td><a href="https://github.com/LipeDev12/Filme-" target="_blank">Ver Projeto</a></td></td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+         <section id="Contato"></section>
+        <h1>Entre em Contato</h1>
+        <!-- para deixar uma linha  -->
+            <!-- Formulário com método POST e ação -->
+            <form action="processar.php" method="post">   
+        <fieldset>
+            <legend>Dados do contato</legend>
+               <!-- Campo de texto simples -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+         <!-- Campo de email com validação -->
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+            <!-- Lista de seleção (select)-->
+        <label for="Assunto">Assunto</label><br>
+        <select id="Selecione um assunto" name="Selecione um assunto ">
+            <option value="">Selecio um Assunto</option>
+            <option value="Oportunidade">Oportunidade de Trabalho</option>
+            <option value="Contato">Contato Geral</option>
+            <option value="Geral">Prosposta de Projeto</option>
+        </select><br><br>
+
+          <!-- Área de texto -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea name="comentarios" id="comentarios" rows="4" cols="50"></textarea><br><br>
+         <!-- Botões do formulário -->
+        <button type="submit">Enviar Mensagem</button>
+        </fieldset>
+        
+        </fieldset>
+           </form>
+            <p>&copy; 2026 Meta Desenvolvido durante o curso SENAI.</p>
+            <hr>
+<!-- contato -->
+             <a href="mailto:feh.oliveira1002@gmail.com">contato@meusite.com</a>
+             <hr>
+</body>
+</html>
